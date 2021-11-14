@@ -2,6 +2,10 @@
 # Person module for testing
 module Person
 
+  def self.included(base)
+    puts "#{base} includes #{self}"
+  end
+
   def print_hello_world
     puts 'hello world!'
   end

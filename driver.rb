@@ -9,4 +9,4 @@ end
 driver_one = Driver.new
 
 driver_one.print_hello_world
-Person.self_print_hello_worlda
+Person.self_print_hello_world
