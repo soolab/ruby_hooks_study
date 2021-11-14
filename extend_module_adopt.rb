@@ -6,3 +6,4 @@ class ExtendModuleAdopt
 end
 
 ExtendModuleAdopt.hello_world
+p ExtendModuleAdopt.ancestors
