@@ -19,3 +19,5 @@ end
 
 adopt_one = PrependModuleAdopt.new
 adopt_one.hello_world
+
+p PrependModuleAdopt.ancestors
